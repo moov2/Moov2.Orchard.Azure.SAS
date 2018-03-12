@@ -1,0 +1,14 @@
+﻿Name: Moov2 Orchard Azure SAS
+AntiForgery: enabled
+Author: Moov2
+Website: https://github.com/moov2/Moov2.Orchard.Azure.SAS
+Version: 0.1
+OrchardVersion: 1.9.2
+Description: Enhances the Orchard.Azure module with additional security features using Azure Secure Access Signatures (SAS)
+Category: Hosting
+Features:
+    Moov2.Orchard.Azure.SAS.Media:
+        Name: Microsoft Azure Media Storage SAS
+        Description: Applies SAS security restrictions to the Orchard media storage provider that targets Microsoft Azure Blob Storage.
+        Dependencies: Orchard.Azure.Media
+        Category: Hosting
